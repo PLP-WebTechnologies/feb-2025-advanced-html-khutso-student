@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feb-2025-advanced-html-khutso-student</title>
+</head>
+<body>
+    <h1>ordered list with roman numerals</h1>
+    <ol type="A">
+        <li>First letter </li>
+        <li>Second letter </li>
+        <li>Third letter </li>
+        <li>Forth letter </li>
+        <li>Firth letter </li>
+    </ol>
+
+    <h1>image from pexels.com</h1>
+
+    <img src="images/pexels-luis-gomes-166706-546819.jpg" alt="Programming codes image" style="width: 400px; height: 350px;">
+
+
+    <h1>table of 5 contacts with; name, address, mobile and emails</h1>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Khutso</td>
+            <td>34152 Mohlware Street Mamelodi East Pretoria Gauteng</td>
+            <td>064 857 1755</td>
+            <td>khutsomakunyane1@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Daniel</td>
+            <td>55845 motsepe street mamelodi east ext 6</td>
+            <td>075 884 5725</td>
+            <td>danielnew@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Khutso</td>
+            <td>Pretoria West mhiri street</td>
+            <td>0744 664 5527</td>
+            <td>khutso@smartbizdigital.co.za</td>
+        </tr>
+        <tr>
+            <td>Surprise</td>
+            <td>Phomolong Mamelodi east Silverturn</td>
+            <td>0645 887 2212</td>
+            <td>surprise1223@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Samson</td>
+            <td>Phomolong Mamelodi East Pretoria Gauteng</td>
+            <td>078 551 394 845</td>
+            <td>samsonmatshate@gmail.com</td>
+        </tr>
+    </table>
+
+
+    <h1>Add a registration form</h1>
+
+    <form action="">
+        <label for="name">Name </label>
+        <input type="text"  name="student_name" id="student_name" required> <br> 
+
+        <label for="Surname">Surname </label>
+        <input type="text"  name="student_Surname" id="student_Surname" required> <br> 
+
+        <label for="Date-of-birth">Date-of-birth </label>
+        <input type="date"  name="student_Surname" id="student_Surname" required> <br> 
+
+        <label for="name">Gender </label>
+        <input type="radio"  name="gender" id="gender" value="Female">Female 
+        <input type="radio"  name="gender" id="gender" value="Male">Male
+        <input type="radio"  name="gender" id="gender" value="Other">Other <br>  
+
+        <label for="Hobbies">Hobbies</label>
+        <input type="checkbox" name="hobbies" value="Travel">Travel
+        <input type="checkbox" name="hobbies" value="Game">Game 
+        <input type="checkbox" name="hobbies" value="Sports">Sports 
+        <input type="checkbox" name="hobbies" value="Gym">Gym 
+        <input type="checkbox" name="hobbies" value="Art">Art <br>
+
+        <label for="Province">Province</label>
+        <select name="Province" id="Province">
+            <option value="--Select Province--">--Select Province--</option>
+            <option value="Gauteng">Gauteng</option>
+            <option value="Limpopo">Limpopo</option>
+            <option value="Mpumalanga">Mpumalanga</option>
+            <option value="North West">North West</option>
+            <option value="Kwazulu-Natal">Kwazulu-Natal</option>
+            <option value="Free State">Free State</option>
+            <option value="Eastern Cape">Eastern Cape</option>
+            <option value="Western Cape">Western Cape</option>
+        </select>
+        <br>
+
+        <label for="description">Description</label>
+        <textarea name="Description" id="description">Describe Your Self</textarea>
+        <br>
+
+        <input type="submit" value="submit" id="submit"> <br>
+        <button class="Cancel" onclick="Close ()">Cancel</button>
+    </form>
+</body>
+</html>
